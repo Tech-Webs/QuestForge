@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #132D46;
+    height: 8vh;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.Logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+}
+
+.navList li {
+    letter-spacing: 3px;
+    margin-left: 28px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.navList li:hover {
+    border: 1px solid #fff;
+    ;
+}
+
+.navList li:active{                   
+    background-color: white;
+    transform: scale(0.985);     
+    transition: 0.25s;
+    border: 1 px solid #153764; 
+}
+
+.navList li:active a{
+    color: #132D46;
+}
+
