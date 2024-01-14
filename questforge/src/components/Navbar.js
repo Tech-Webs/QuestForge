@@ -1,4 +1,5 @@
 import styles from './Navbar.module.css'
+import { Link } from 'react-router-dom';
 
 function Navbar(){
     return(
@@ -7,7 +8,7 @@ function Navbar(){
                 <a className = {styles.Logo} href ="/">QuestForge</a>
                 <ul className = {styles.navList}>
                     <li><a href = "/">Sobre</a></li>
-                    <li><a  href = "/">Perfil</a></li>
+                    <li><a  href = ""><Link to ="/perfil">Perfil</Link></a></li>
                 </ul>
             </nav>
         </header>
