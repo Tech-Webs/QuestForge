@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import './App.css';
-import Perfil from './components/Telas/Perfil';
-import Principal from './components/Telas/Principal';
+import Perfil from './Telas/Perfil';
+import Principal from './Telas/Principal';
 
 function App() {
   return (

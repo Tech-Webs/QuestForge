@@ -1,5 +1,5 @@
 import styles from './Perfil.module.css'
-import Navbar from '../Navbar';
+import Navbar from '../components/Navbar';
 
 function Perfil() {
   return (
