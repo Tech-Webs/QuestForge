@@ -1,6 +1,5 @@
 nav {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background: #132D46;
     height: 8vh;
@@ -11,6 +10,9 @@ a {
     text-decoration: none;
     transition: 0.3s;
 }
+.LogoCompleta{
+    margin-left: 0px !important; 
+}
 
 .Logo {
     font-size: 24px;
@@ -18,9 +20,15 @@ a {
     letter-spacing: 4px;
 }
 
+.LogoImg{
+    width: 8vh;
+    margin-right: 10px;
+}
+
 .navList {
     list-style: none;
     display: flex;
+    margin-right: 70px;
 }
 
 .navList li {
